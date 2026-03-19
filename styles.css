@@ -239,11 +239,11 @@ justify-items: center;
     margin: 0 10px;
 }
 
-.social-icons > a{
+.social-icons > a {
   text-decoration: none;
 }
 
-.social-icons > a > p{
+.social-icons > a > p {
   font-size: 1.1rem;
 }
 
