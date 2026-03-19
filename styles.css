@@ -236,7 +236,15 @@ justify-items: center;
     transform: translateY(0px) scale(1);
     transition: transform .3s ease,
                 color .3s ease;
-                
+    margin: 0 10px;
+}
+
+.social-icons > a{
+  text-decoration: none;
+}
+
+.social-icons > a > p{
+  font-size: 1.1rem;
 }
 
 .social-icons > a:hover {
