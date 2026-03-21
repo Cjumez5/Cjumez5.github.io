@@ -75,8 +75,8 @@ nav > ul > li > a{
   width: 100%;
   min-height: 100vh;
   display: grid;
-  grid-template-columns: minmax(2rem, 1fr) 
-minmax(min-content, 94rem) minmax(2rem, 1fr);
+  grid-template-columns: 1fr 
+minmax(min-content, 94rem) 1fr;
 justify-items: center;
 }
 
@@ -239,11 +239,11 @@ justify-items: center;
     margin: 0 10px;
 }
 
-.social-icons > a {
+.social-icons > a{
   text-decoration: none;
 }
 
-.social-icons > a > p {
+.social-icons > a > p{
   font-size: 1.1rem;
 }
 
@@ -289,6 +289,8 @@ footer{
 
   .project-tile{
     width: 80vw;
+    min-width: 302px;
     height: 80vw;
+    min-height: 350px;
   }
 }
